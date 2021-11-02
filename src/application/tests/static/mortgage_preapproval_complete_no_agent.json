@@ -1,0 +1,97 @@
+{
+  "id": "5ea82edf-d2f9-4033-810a-1f6ac78984ba",
+  "questionset": "approval-app",
+  "response": {
+      "email": "kundan.s@amazatic.com",
+      "last_name": "Sable",
+      "first_name": "Kundan",
+      "phone_number": "987-987-6543",
+      "when_are_you_looking_to_move": "3-6 months",
+      "where_are_you_in_the_process": "working with a builder",
+      "builders_company_name": "builder company",
+      "do_you_have_a_home_to_sell": "yes",
+      "how_many_floors_does_it_have": 2,
+      "how_many_bedrooms_does_it_have": 4,
+      "whats_the_address_of_the_home_youre_selling": {
+        "street_address": "1 Main Street",
+        "unit": "",
+        "city": "Brooklyn",
+        "state": "NY",
+        "postcode": "11201",
+        "lat": 40.7036242,
+        "lng": -73.99040259999998,
+        "original_address": "1 Main St, Brooklyn, NY 11201, USA"
+      },
+      "kitchen_photos": [
+        "1/4/e8d11a-f687-4bef-b5a3-de0066ca25bb.jpeg"
+      ],
+      "living_room_photos": [
+        "2/f/9d0dd1-610a-4726-a091-2c8d333a4ca8.jpeg"
+      ],
+      "master_bath_photos": [
+        "e/d/5b0078-93a6-4c35-84a7-f2b85f4a7cac.jpeg"
+      ],
+      "front_exterior_photos": [
+        "f/4/8c004b-26f3-4a2c-a22a-7117c0875965.jpeg"
+      ],
+      "all_other_rooms_photos": [
+        "4/b/cd5033-fab5-4d50-a590-95fe6fd0c190.jpeg",
+        "6/8/0997ad-e4b6-440a-b60e-add8e5257409.jpeg",
+        "8/2/bd5471-9381-41df-9c33-79b65c200e8e.jpeg"
+      ],
+      "are_you_already_working_with_a_lender": "yes",
+      "lenders_first_name": "Frank",
+      "lenders_last_name": "Lender",
+      "lenders_email": "Frank@homeward.com",
+      "lenders_phone_number": "234-565-4345",
+      "have_you_been_pre_approved_by_this_lender": "yes",
+      "total_pre_approved_purchase_price": "$2,345,678",
+      "builders_address": {
+          "street_address": "4000 Danli Lane",
+          "unit": "",
+          "city": "Austin",
+          "state": "TX",
+          "postcode": "78749",
+          "lat": 30.43108259999999,
+          "lng": -97.74652270000001,
+          "original_address": "4000 Danli Ln, Austin, TX 78749, USA"
+      },
+      "which_city_are_you_looking_in": {
+          "street_address": "12345 Alameda Trace Circle",
+          "unit": "",
+          "city": "Austin",
+          "state": "TX",
+          "postcode": "78727",
+          "lat": 30.43108259999999,
+          "lng": -97.74652270000001,
+          "original_address": "12345 Alameda Trace Cir, Austin, TX 78727, USA"
+      },
+      "what_price_range_are_you_looking_in": {
+          "min": 150000,
+          "max": 350000
+      },
+      "are_you_working_with_a_real_estate_agent": "no"
+  },
+  "status": "draft",
+  "state": {
+      "slug": "upload_photos_of_your_home",
+      "what_price_range_are_you_looking_in": "which_city_are_you_looking_in",
+      "when_are_you_looking_to_move": "what_price_range_are_you_looking_in",
+      "are_you_working_with_a_real_estate_agent": "when_are_you_looking_to_move",
+      "are_you_already_working_with_a_lender": "whats_the_name_of_the_agent",
+      "do_you_have_a_home_to_sell": "whats_your_lenders_info",
+      "save_your_progress": "what_is_the_balance_of_all_outstanding_loans_against_this_property",
+      "what_type_of_countertops_does_your_kitchen_have": "how_much_area_was_added_with_the_addition",
+      "were_the_additions_permitted_or_unpermitted": "have_you_made_any_additions",
+      "what_is_the_overall_condition_of_your_carpet_flooring": "what_is_the_overall_condition_of_your_hardwood_flooring",
+      "do_you_have_a_front_yard": "what_is_the_overall_condition_of_your_carpet_flooring",
+      "what_is_the_overall_condition_of_your_front_yard": "do_you_have_a_front_yard",
+      "do_you_have_a_back_yard": "what_is_the_overall_condition_of_your_front_yard",
+      "what_is_the_overall_condition_of_your_back_yard": "do_you_have_a_back_yard",
+      "what_type_of_exterior_walls_do_you_have": "what_is_the_overall_condition_of_your_back_yard",
+      "how_old_is_the_roof": "how_many_sides_of_the_home_has_masonary_on_it",
+      "what_type_of_pool_is_it": "does_your_home_have_a_pool",
+      "how_many_garage_spaces": "what_type_of_pool_is_it"
+  },
+  "utm": {}
+}

@@ -1,0 +1,38 @@
+{
+    "id":"b7e81ee9-27d2-4c6d-84fb-2a641aedab59",
+    "questionset":"approval-app",
+    "response":
+        {
+            "email":"regina.deangelis+denverlistingsinperson@homeward.com","last_name":"Listingsinperson",
+            "first_name":"Denver",
+            "phone_number":"192-321-2311",
+            "hubspot_context":
+                {
+                    "pageUrl":"https://staging.app.homeward.com/tasks/questionnaire/save_your_progress/create_an_account"
+                },
+            "do_you_have_a_home_to_sell":"no","where_are_you_in_the_process":"viewing listings in person","self_reported_referral_source":"social_media","which_city_are_you_looking_in":
+                {
+                    "lat":39.7392358,
+                    "lng":-104.990251,
+                    "city":"Denver",
+                    "unit":"",
+                    "state":"CO",
+                    "postcode":"",
+                    "street_address":"",
+                    "original_address":"Denver, CO, USA"
+                },
+            "what_price_range_are_you_looking_in":
+                {
+                    "max":650000,
+                    "min":250000
+                },
+            "has_consented_to_receive_electronic_documents":true
+        },
+    "status":"draft",
+    "state":{},
+    "utm":
+        {
+            "has_utm":false
+        },
+    "user":4411
+}

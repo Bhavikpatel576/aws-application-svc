@@ -1,0 +1,57 @@
+{
+  "was_welcomed": "true",
+  "agent_situation": "working_with_a_client",
+  "where_are_you_in_the_process": "viewing listings in person",
+  "saw_situation_message": "true",
+  "agents_first_name": "Aidan",
+  "agents_last_name": "Garza",
+  "agents_email": "aidan.garza+20201028-12-11-33@homeward.com",
+  "agents_phone_number": "111-111-1111",
+  "agents_company": "magnolia_realty",
+  "utm": {},
+  "do_you_have_a_home_to_sell": "yes",
+  "whats_the_address_of_the_home_youre_selling": {
+    "street_address": "444 E St Elmo Rd",
+    "city": "Austin",
+    "state": "TX",
+    "postcode": "78745",
+    "lat": 30.2160559,
+    "lng": -97.7621283,
+    "original_address": "444 E St Elmo Rd, Austin, TX 78745, USA"
+  },
+  "which_city_are_you_looking_in": {
+    "street_address": "",
+    "unit": "",
+    "city": "Austin",
+    "state": "TX",
+    "postcode": "",
+    "lat": 30.267153,
+    "lng": -97.7430608,
+    "original_address": "Austin, TX, USA"
+  },
+  "what_price_range_are_you_looking_in": {
+    "min": 650000,
+    "max": 650000
+  },
+  "buying_location": {
+    "street_address": "",
+    "unit": "",
+    "city": "Austin",
+    "state": "TX",
+    "postcode": "",
+    "lat": 30.267153,
+    "lng": -97.7430608,
+    "original_address": "Austin, TX, USA"
+  },
+  "selling_location": {
+    "street_address": "444 E St Elmo Rd",
+    "city": "Austin",
+    "state": "TX",
+    "postcode": "78745",
+    "lat": 30.2160559,
+    "lng": -97.7621283,
+    "original_address": "444 E St Elmo Rd, Austin, TX 78745, USA"
+  },
+  "min_price": 650000,
+  "max_price": 650000
+}

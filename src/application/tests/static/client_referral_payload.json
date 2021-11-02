@@ -1,0 +1,20 @@
+{
+  "questionset":"approval-app",
+  "id": "asdf-1234",
+  "response": {
+    "email": "matt.thurmond+client@gmail.com",
+    "last_name": "Test-client",
+    "first_name": "Jane",
+    "agents_email": "matt.thurmond@gmail.com",
+    "phone_number": "1-901-222-2222",
+    "agents_company": "1984",
+    "referral_source": "real-estate agent",
+    "agents_last_name": "Thurmond",
+    "agents_first_name": "Matt",
+    "agents_phone_number": "1-901-413-1241",
+    "are_you_working_with_a_real_estate_agent": "yes",
+    "self_reported_referral_source": "social_media"
+  },
+  "status":"draft",
+  "state": {}
+}

@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "_archived": false,
+            "_draft": false,
+            "parnter-email": "tony@vanpoole.com",
+            "body-main": "black",
+            "cta-color": "#a90b02",
+            "navbar-color": "white",
+            "navbar-accent": "black",
+            "footer-main": "white",
+            "agent-links": true,
+            "cta-contrast-color": "white",
+            "partner-website": "https://vanpooleproperties.com/",
+            "primary-color": "black",
+            "texas": true,
+            "force-update": false,
+            "multiple-states": false,
+            "colorado": false,
+            "georgia": false,
+            "use-apex-v2": false,
+            "hero-image-3": "c4b0a9b6ac7c436f4827ddb78fa668fc",
+            "benefits-image-1": "5692b3f916e8b2014e1d074fdcad590d",
+            "benefits-image-2": "945b7e173ad65b9f2074123feea91d53",
+            "benefits-image-3": "2aa979796eb0a210f50588fd1f108ccf",
+            "name": "Van Poole Properties Group",
+            "logo": {
+                "fileId": "607f1fa346ad775ab81262b9",
+                "url": "https://uploads-ssl.webflow.com/5fd39c9c41d20b34424ef268/607f1fa346ad775ab81262b9_Screen%20Shot%202021-04-20%20at%2011.36.46%20AM.png",
+                "alt": null
+            },
+            "site-preview-image": {
+                "fileId": "6074a3bffc16baa5ce9d7c06",
+                "url": "https://uploads-ssl.webflow.com/5fd39c9c41d20b34424ef268/6074a3bffc16baa5ce9d7c06_Apex_hero%20thumbnail-5%20(2).png",
+                "alt": null
+            },
+            "slug": "vpp",
+            "updated-on": "2021-04-20T18:40:21.848Z",
+            "updated-by": "Person_5ec53a2db66aa007af5a8ffc",
+            "created-on": "2021-04-20T18:40:21.848Z",
+            "created-by": "Person_5ec53a2db66aa007af5a8ffc",
+            "published-on": "2021-04-20T18:40:21.848Z",
+            "published-by": "Person_5ec53a2db66aa007af5a8ffc",
+            "_cid": "5ffde4416284b7abcd7068c7",
+            "_id": "607f201546c5953dafdd90ea"
+        }
+    ],
+    "count": 1,
+    "limit": 100,
+    "offset": 0,
+    "total": 73
+}

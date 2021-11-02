@@ -1,0 +1,59 @@
+{
+  "id": "5ea82edf-d2f9-4033-810a-1f6ac78984ba",
+  "questionset": "approval-app",
+  "response": {
+      "email": "kundan.s@amazatic.com",
+      "last_name": "Sable",
+      "first_name": "Kundan",
+      "phone_number": "987-987-6543",
+      "where_are_you_in_the_process": "working with a builder",
+      "builders_company_name": "builder company",
+      "builders_address": {
+          "street_address": "4000 Danli Lane",
+          "unit": "",
+          "city": "Austin",
+          "state": "TX",
+          "postcode": "78749",
+          "lat": 30.43108259999999,
+          "lng": -97.74652270000001,
+          "original_address": "4000 Danli Ln, Austin, TX 78749, USA"
+      },
+      "which_city_are_you_looking_in": {
+          "street_address": "12345 Alameda Trace Circle",
+          "unit": "",
+          "city": "Austin",
+          "state": "TX",
+          "postcode": "78727",
+          "lat": 30.43108259999999,
+          "lng": -97.74652270000001,
+          "original_address": "12345 Alameda Trace Cir, Austin, TX 78727, USA"
+      },
+      "what_price_range_are_you_looking_in": {
+          "min": 150000,
+          "max": 350000
+      },
+      "are_you_working_with_a_real_estate_agent": ""
+  },
+  "status": "draft",
+  "state": {
+      "slug": "upload_photos_of_your_home",
+      "what_price_range_are_you_looking_in": "which_city_are_you_looking_in",
+      "when_are_you_looking_to_move": "what_price_range_are_you_looking_in",
+      "are_you_working_with_a_real_estate_agent": "when_are_you_looking_to_move",
+      "are_you_already_working_with_a_lender": "whats_the_name_of_the_agent",
+      "do_you_have_a_home_to_sell": "whats_your_lenders_info",
+      "save_your_progress": "what_is_the_balance_of_all_outstanding_loans_against_this_property",
+      "what_type_of_countertops_does_your_kitchen_have": "how_much_area_was_added_with_the_addition",
+      "were_the_additions_permitted_or_unpermitted": "have_you_made_any_additions",
+      "what_is_the_overall_condition_of_your_carpet_flooring": "what_is_the_overall_condition_of_your_hardwood_flooring",
+      "do_you_have_a_front_yard": "what_is_the_overall_condition_of_your_carpet_flooring",
+      "what_is_the_overall_condition_of_your_front_yard": "do_you_have_a_front_yard",
+      "do_you_have_a_back_yard": "what_is_the_overall_condition_of_your_front_yard",
+      "what_is_the_overall_condition_of_your_back_yard": "do_you_have_a_back_yard",
+      "what_type_of_exterior_walls_do_you_have": "what_is_the_overall_condition_of_your_back_yard",
+      "how_old_is_the_roof": "how_many_sides_of_the_home_has_masonary_on_it",
+      "what_type_of_pool_is_it": "does_your_home_have_a_pool",
+      "how_many_garage_spaces": "what_type_of_pool_is_it"
+  },
+  "utm": {}
+}

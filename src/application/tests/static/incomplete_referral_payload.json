@@ -1,0 +1,38 @@
+{
+    "status": "draft",
+    "questionset": "approval-app",
+    "response": {
+       "agents_email":"ASHLEYBRINKMAN@REALTYAUSTIN.COM",
+       "agents_company":"ra",
+       "referral_source":"real-estate agent",
+       "agents_last_name":"BRINKMAN",
+       "agents_first_name":"ASHLEY",
+       "agents_phone_number":"512-665-8787",
+       "pricing_estimate_id":"ffe6b1ec-cad1-430b-a58e-a341637a4780",
+       "do_you_have_a_home_to_sell":"yes",
+       "where_are_you_in_the_process":"making an offer",
+       "what_price_range_are_you_looking_in":{
+          "max":1900000,
+          "min":1900000
+       },
+       "what_address_are_you_making_an_offer_on":{
+          "lat":30.248861,
+          "lng":-97.7783144,
+          "city":"Austin",
+          "state":"TX",
+          "postcode":"78704",
+          "street_address":"2100 Arpdale St",
+          "original_address":"2100 Arpdale St, Austin, TX 78704, USA"
+       },
+       "are_you_working_with_a_real_estate_agent":"yes",
+       "whats_the_address_of_the_home_youre_selling":{
+          "lat":30.2424896,
+          "lng":-97.77782669999999,
+          "city":"Austin",
+          "state":"TX",
+          "postcode":"78704",
+          "street_address":"2807 Del Curto Rd",
+          "original_address":"2807 Del Curto Rd, Austin, TX 78704, USA"
+       }
+    }
+}

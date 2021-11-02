@@ -1,0 +1,22 @@
+{
+  "name": "Homeward Application Service",
+  "environments": {
+    "test": {
+      "addons": [
+        "heroku-postgresql:in-dyno"
+      ],
+      "env": {
+        "SECRET_KEY": "w^&*p9y_h7w0x_)q2ho0%rbzs)u^^iwceeyb&coe_a#7zhxf7%",
+        "APP_ENV": "test",
+        "PHOTO_UPLOAD_NOTIFICATION_EMAIL": "test@gmail.com"
+      },
+      "scripts": {
+        "test": "python src/manage.py test application api.v1_0_0 utils"
+      }
+    }
+  },
+  "addons": [
+    "heroku-postgresql:hobby-basic",
+    "papertrail"
+  ]
+}

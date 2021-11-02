@@ -1,0 +1,39 @@
+{
+   "questionset":"approval-app",
+   "response":{
+      "where_are_you_in_the_process":"viewing listings in person",
+      "which_city_are_you_looking_in":{
+         "street_address":"45645 Vía Puebla",
+         "unit":"",
+         "city":"Temecula",
+         "state":"CA",
+         "postcode":"92592",
+         "lat":33.4643153,
+         "lng":-117.08379819999999,
+         "original_address":"45645 Vía Puebla, Temecula, CA 92592, USA"
+      },
+      "what_price_range_are_you_looking_in":{
+         "min":150000,
+         "max":350000
+      },
+      "when_are_you_looking_to_move":"3-6 months",
+      "are_you_working_with_a_real_estate_agent":"no",
+      "are_you_already_working_with_a_lender":"no",
+      "self_reported_referral_source": "social_media",
+      "do_you_have_a_home_to_sell":"no",
+      "first_name":"Sydne",
+      "last_name":"Kleespies",
+      "email":"sydne@homeward.com",
+      "phone_number":"512-512-5125"
+   },
+   "status":"complete",
+   "state":{
+      "slug":"save_your_progress",
+      "what_price_range_are_you_looking_in":"which_city_are_you_looking_in",
+      "when_are_you_looking_to_move":"what_price_range_are_you_looking_in",
+      "are_you_working_with_a_real_estate_agent":"when_are_you_looking_to_move",
+      "are_you_already_working_with_a_lender":"are_you_working_with_a_real_estate_agent",
+      "do_you_have_a_home_to_sell":"are_you_already_working_with_a_lender",
+      "save_your_progress":"do_you_have_a_home_to_sell"
+   }
+}

@@ -1,0 +1,212 @@
+[
+    {
+        "model": "application.address",
+        "pk": "6b227dba-b91c-4144-b9c2-0a5ce48d0d9c",
+        "fields": {
+            "created_at": "2020-10-06T22:27:35.900Z",
+            "updated_at": "2020-10-06T22:28:29.822Z",
+            "street": "1 Main Street",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11201",
+            "unit": "B"
+        }
+    },
+    {
+        "model": "application.address",
+        "pk": "4d0d6162-0756-497e-b4cd-7f2118c99f1b",
+        "fields": {
+            "created_at": "2020-10-06T22:27:36.576Z",
+            "updated_at": "2020-10-06T22:28:30.162Z",
+            "street": "12345 Alameda Trace Circle",
+            "city": "Austin",
+            "state": "TX",
+            "zip": "78727",
+            "unit": "#12"
+        }
+    },
+    {
+        "model": "application.address",
+        "pk": "1d308586-fe62-4f79-9c16-71d2cb5fee7f",
+        "fields": {
+            "created_at": "2020-10-06T22:27:36.785Z",
+            "updated_at": "2020-10-06T22:27:36.785Z",
+            "street": "123 Apple Blvd",
+            "city": "New York",
+            "state": "NY",
+            "zip": "11202",
+            "unit": "#12"
+        }
+    },
+    {
+        "model": "application.realestateagent",
+        "pk": "1539f1bd-c258-44e9-a5d5-b758dae4bd78",
+        "fields": {
+            "created_at": "2020-10-06T22:27:36.630Z",
+            "updated_at": "2020-10-06T22:28:30.277Z",
+            "name": "Tim Heyl",
+            "phone": "9876543210",
+            "email": "tim.heyl@homeward.com",
+            "company": "Homeward Real Estate Inc.",
+            "brokerage": null,
+            "self_reported_referral_source": null,
+            "self_reported_referral_source_detail": null,
+            "is_certified": true,
+            "sf_id": "0014P00002M6HkKQAV"
+        }
+    },
+    {
+        "model": "application.currenthome",
+        "pk": "74d75877-fefc-40cd-8479-7c2008eb7774",
+        "fields": {
+            "created_at": "2020-10-06T22:27:35.921Z",
+            "updated_at": "2020-10-06T22:28:29.913Z",
+            "address": "6b227dba-b91c-4144-b9c2-0a5ce48d0d9c",
+            "closing_date": "2020-09-30T00:00:00Z",
+            "final_sales_price": null,
+            "market_value": null,
+            "outstanding_loan_amount": "200000.00",
+            "floor_price": null,
+            "customer_value_opinion": "10000000.00",
+            "attributes": null,
+            "listing_status": "Under Contract",
+            "listing_url": "https://listing-site.com/my-listing-id",
+            "total_concession_amount": "50000.00",
+            "option_period_expiration_date": "2020-09-30T00:00:00Z",
+            "floors_count": 2,
+            "bedrooms_count": 4,
+            "master_on_main": true,
+            "home_size_sq_ft": 40000,
+            "has_made_addition": true,
+            "addition_type": "unpermitted addition",
+            "addition_size_sq_ft": 3000,
+            "has_basement": true,
+            "basement_type": "finished",
+            "basement_size_sq_ft": 1000,
+            "kitchen_countertop_type": "corian",
+            "kitchen_appliance_type": "stainless steel",
+            "kitchen_features": "[\"tile backsplash\", \"new cabinets\"]",
+            "kitchen_has_been_remodeled": "less than 5 years ago",
+            "master_bathroom_condition": "some scuffs, stains, or scratches",
+            "full_bathrooms_count": 4,
+            "partial_bathrooms_count": 2,
+            "interior_walls_condition": "Needs some work",
+            "flooring_types": "[\"Hardwood\", \"Tile\", \"Carpet\"]",
+            "hardwood_flooring_condition": "Needs Small Repairs",
+            "carpet_flooring_condition": "Needs Cleaning",
+            "front_yard_condition": "Minimal Landscaping",
+            "back_yard_condition": "Basic Landscaping",
+            "exterior_walls_types": "[\"brick\", \"stone\"]",
+            "sides_with_masonry_count": "4 side",
+            "roof_age_range": "5-10 years old",
+            "pool_type": "In-ground",
+            "garage_spaces_count": "3",
+            "hvac_age_range": "5-10 years old",
+            "home_features": "[\"power lines in front\", \"gated community\"]",
+            "in_floodzone": "yes",
+            "property_view_type": "none",
+            "repair_or_update_detail": "I fumigated for fairies.",
+            "customer_notes": "Here are a bunch of notes about all the things you really need to know about this property!",
+            "under_contract_sales_price": null,
+            "salesforce_id": "some-salesforce-id"
+        }
+    },
+    {
+        "model": "application.customer",
+        "pk": "8a7985b2-0f5f-46df-a89f-c8af6dd2e8d3",
+        "fields": {
+            "created_at": "2020-10-06T22:27:35.708Z",
+            "updated_at": "2020-10-06T22:28:29.805Z",
+            "name": "Brandon Kirchner",
+            "email": "brandon@homeward.com",
+            "phone": "987-987-6543",
+            "co_borrower_email": null
+        }
+    },
+    {
+        "model": "application.mortgagelender",
+        "pk": "9c07c3e1-1389-4630-b32b-dd36c376c919",
+        "fields": {
+            "created_at": "2020-10-06T22:27:36.775Z",
+            "updated_at": "2020-10-06T22:28:30.290Z",
+            "name": "Monopoly Man",
+            "email": "banker@banks.com",
+            "phone": "123-123-4567"
+        }
+    },
+    {
+        "model":"application.application",
+        "pk":"aca30e9e-776b-44fb-ba37-93e4b195cefe",
+        "fields":{
+           "created_at":"2020-10-06T22:27:36.790Z",
+           "updated_at":"2020-10-06T22:28:30.335Z",
+           "customer":"8a7985b2-0f5f-46df-a89f-c8af6dd2e8d3",
+           "current_home":"74d75877-fefc-40cd-8479-7c2008eb7774",
+           "shopping_location":"12345 Alameda Trace Cir, Austin, TX 78727, USA",
+           "home_buying_location":"4d0d6162-0756-497e-b4cd-7f2118c99f1b",
+           "home_buying_stage":"researching online",
+           "stage":"incomplete",
+           "lead_status":"New",
+           "min_price":"150000.00",
+           "max_price":"350000.00",
+           "move_in":"3-6 months",
+           "move_by_date":null,
+           "start_date":"2020-10-06T22:27:36.790Z",
+           "mortgage_lender":"9c07c3e1-1389-4630-b32b-dd36c376c919",
+           "real_estate_agent":"1539f1bd-c258-44e9-a5d5-b758dae4bd78",
+           "listing_agent":"1539f1bd-c258-44e9-a5d5-b758dae4bd78",
+           "buying_agent":"1539f1bd-c258-44e9-a5d5-b758dae4bd78",
+           "builder":null,
+           "offer_property_address":"1d308586-fe62-4f79-9c16-71d2cb5fee7f",
+           "pushed_to_hubspot_on":null,
+           "hubspot_context":{
+              
+           },
+           "pushed_to_salesforce_on":null,
+           "new_salesforce":null,
+           "utm":{
+              
+           },
+           "lead_source":"lead source example",
+           "lead_source_drill_down_1":"lead source drill down 1 example",
+           "lead_source_drill_down_2":"lead source drill down 2 example",
+           "self_reported_referral_source":"news_article",
+           "self_reported_referral_source_detail":"my friend told me about homeward",
+           "reason_for_trash":null,
+           "internal_referral":"real-estate agent",
+           "needs_listing_agent":true,
+           "needs_buying_agent":null,
+           "has_consented_to_receive_electronic_documents":false,
+           "needs_lender":false,
+           "blend_status":null,
+           "internal_referral_detail":null,
+           "questionnaire_response_id":"5ea82edf-d2f9-4033-810a-1f6ac78984ba",
+           "mortgage_status":null,
+           "homeward_owner_email":null,
+           "preapproval":null,
+           "new_home_purchase":null,
+           "agent_notes":"Client is a total whack job but hey lets see what happens",
+           "cx_manager":null,
+           "product_offering":"buy-sell",
+           "agent_client_contact_preference":"Contact agent first"
+        }
+    },
+    {
+        "model": "user.user",
+        "pk": 1,
+        "fields": {
+            "last_login": "2021-01-06T15:16:28.195Z",
+            "is_superuser": false,
+            "username": "some-username-123",
+            "first_name": "",
+            "last_name": "",
+            "email": "brandon@homeward.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-01-06T15:16:28.194Z",
+            "password": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

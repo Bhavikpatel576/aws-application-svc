@@ -1,0 +1,95 @@
+{
+   "questionset":"approval-app",
+   "response":{
+      "where_are_you_in_the_process":"viewing listings in person",
+      "which_city_are_you_looking_in":{
+         "street_address":"1231 Parkway",
+         "unit":"",
+         "city":"Austin",
+         "state":"TX",
+         "postcode":"78703",
+         "lat":30.2787261,
+         "lng":-97.7514741,
+         "original_address":"1231 Parkway, Austin, TX 78703, USA"
+      },
+      "what_price_range_are_you_looking_in":{
+         "min":150000,
+         "max":350000
+      },
+      "when_are_you_looking_to_move":"by a specific date",
+      "what_date_are_you_looking_to_move_by":"2019-05-04",
+      "are_you_working_with_a_real_estate_agent":"no",
+      "are_you_already_working_with_a_lender":"no",
+      "self_reported_referral_source": "social_media",
+      "do_you_have_a_home_to_sell":"yes",
+      "whats_the_address_of_the_home_youre_selling":{
+         "street_address":"12345 Alameda Trace Circle",
+         "unit":"",
+         "city":"Austin",
+         "state":"TX",
+         "postcode":"78727",
+         "lat":30.43108259999999,
+         "lng":-97.74652270000001,
+         "original_address":"12345 Alameda Trace Cir, Austin, TX 78727, USA"
+      },
+      "what_is_the_balance_of_all_outstanding_loans_against_this_property":"400000",
+      "first_name":"Donald",
+      "last_name":"Duck",
+      "email":"null@google.com",
+      "phone_number":"345-634-5634",
+      "how_many_bedrooms_does_it_have":"4",
+      "how_many_floors_does_it_have":"1",
+      "is_the_master_bedroom_on_the_main_floor":"no",
+      "how_big_is_your_home":"2000",
+      "have_you_made_any_additions":"no",
+      "what_type_of_countertops_does_your_kitchen_have":"quartz",
+      "what_type_of_kitchen_appliances_do_you_have":"other/don't know",
+      "does_your_kitchen_have_any_of_these_features":[
+         "none of these"
+      ],
+      "have_you_remodeled_your_kitchen_since_you_purchased_your_home":"never remodeled",
+      "how_would_you_describe_the_overall_condition_of_your_kitchen":"needs repair",
+      "does_your_master_bathroom_have_any_of_these_features":[
+         "none of these"
+      ],
+      "have_you_remodeled_your_master_bathroom_since_you_purchased_your_home":"never remodeled",
+      "how_would_you_describe_the_condition_of_your_master_bathroom":"needs repair",
+      "how_many_full_bathrooms_in_your_home":"1",
+      "how_many_partial_bathrooms_in_your_home":"0",
+      "what_is_the_condition_of_the_interior_walls":"Like New",
+      "are_the_common_areas_of_your_home_painted_neutral_colors":"no",
+      "what_type_of_flooring_do_you_have_in_your_home": ["Hardwood", "Tile"],
+      "what_is_the_overall_condition_of_your_hardwood_flooring": "Needs Small Repairs",
+      "do_you_have_a_front_yard":"no",
+      "do_you_have_a_back_yard":"no",
+      "what_type_of_exterior_walls_do_you_have":[
+         "other/not sure"
+      ],
+      "how_old_is_the_roof":"don't know",
+      "does_your_home_have_a_pool":"no",
+      "how_many_garage_spaces":"0",
+      "what_is_the_age_of_your_HVAC_system":"don't know",
+      "does_your_home_have_any_of_the_following":[
+         "none of these"
+      ],
+      "is_any_part_of_your_property_in_a_floodzone_area":"no",
+      "what_is_your_relationship_to_this_home":"I am the owner of this home",
+      "how_much_you_think_your_home_is_worth_today":"200000"
+   },
+   "status":"draft",
+   "state":{
+      "slug":"upload_photos_of_your_home",
+      "what_price_range_are_you_looking_in":"which_city_are_you_looking_in",
+      "when_are_you_looking_to_move":"what_price_range_are_you_looking_in",
+      "are_you_working_with_a_real_estate_agent":"what_date_are_you_looking_to_move_by",
+      "are_you_already_working_with_a_lender":"are_you_working_with_a_real_estate_agent",
+      "do_you_have_a_home_to_sell":"are_you_already_working_with_a_lender",
+      "save_your_progress":"what_is_the_balance_of_all_outstanding_loans_against_this_property",
+      "what_type_of_countertops_does_your_kitchen_have":"have_you_made_any_additions",
+      "do_you_have_a_front_yard":"what_type_of_flooring_do_you_have_in_your_home",
+      "do_you_have_a_back_yard":"do_you_have_a_front_yard",
+      "what_type_of_exterior_walls_do_you_have":"do_you_have_a_back_yard",
+      "how_old_is_the_roof":"what_type_of_exterior_walls_do_you_have",
+      "how_many_garage_spaces":"does_your_home_have_a_pool"
+   }
+}

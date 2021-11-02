@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    working_dir: /opt/app
+    command: ["sh", "-c", "python src/manage.py migrate && python src/manage.py runserver 0.0.0.0:8100"]
+    volumes:
+      - ~/PycharmProjects/application-service/:/opt/app/
+    ports:
+      - "8100:8100"
+    depends_on:
+      - db
+  celery:
+    build: .
+    working_dir: /opt/app
+    command: [ "sh", "-c", "celery -A utils --workdir=src worker --loglevel=info --without-gossip --without-mingle -Q application-service-tasks" ]
+    volumes:
+      - ~/PycharmProjects/application-service/:/opt/app/
+    depends_on:
+      - db
+  db:
+    image: "postgres_db_app_svc"
+    volumes:
+      - ../data/db:/var/lib/postgresql/data
+    ports:
+      - "8101:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres

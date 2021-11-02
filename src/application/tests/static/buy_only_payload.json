@@ -1,0 +1,39 @@
+{
+  "questionset": "approval-app",
+  "response": {
+    "where_are_you_in_the_process": "researching online",
+    "which_city_are_you_looking_in": {
+      "street_address": "",
+      "unit": "",
+      "city": "Austin",
+      "state": "TX",
+      "postcode": "",
+      "lat": 30.267153,
+      "lng": -97.7430608,
+      "original_address": "Austin, TX, USA"
+    },
+    "what_price_range_are_you_looking_in": {
+      "min": 250000,
+      "max": 650000
+    },
+    "do_you_have_a_home_to_sell": "no",
+    "first_name": "brandon",
+    "last_name": "kirchner",
+    "email": "user@email.com",
+    "phone_number": "234-523-4523",
+    "has_consented_to_receive_electronic_documents": true,
+    "self_reported_referral_source": "my_loan_officer",
+    "how_many_full_bathrooms_in_your_home": "2",
+    "hubspot_context": {
+      "hutk": "22d50e58bebe86d5d01ba9de08c6208d",
+      "pageUrl": "https://homeward-onboarding-stage.herokuapp.com/tasks/questionnaire/save_your_progress/create_an_account",
+      "ipAddress": "24.55.40.180"
+    }
+  },
+  "status": "draft",
+  "state": {
+  },
+  "utm": {
+    "has_utm": false
+  }
+}

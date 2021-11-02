@@ -1,0 +1,42 @@
+{
+   "id":"9bde5020-7892-458a-9853-9a6cdd64c49b",
+   "questionset":"approval-app",
+   "response":{
+      "email":"brandon+testbug@homeward.com",
+      "last_name":"Kirchner",
+      "first_name":"Brandon",
+      "phone_number":"1-234-523-4523",
+      "do_you_have_a_home_to_sell":"yes",
+      "when_are_you_looking_to_move":"3-6 months",
+      "where_are_you_in_the_process":"viewing listings in person",
+      "self_reported_referral_source":"my_loan_officer",
+      "which_city_are_you_looking_in":{
+         "lat":35.5611852,
+         "lng":-87.3241792,
+         "city":"Aethra",
+         "unit":"",
+         "state":"TN",
+         "postcode":"38461",
+         "street_address":"",
+         "original_address":"Aethra, TN 38461, USA"
+      },
+      "what_price_range_are_you_looking_in":{
+         "max":350000,
+         "min":150000
+      },
+     "agent_id": "01a582d6-8f1c-4474-b4d1-05a340362d76",
+     "referral_source": "real-estate agent"
+   },
+   "status":"incomplete",
+   "state":{
+      "slug":"application_complete",
+      "save_your_progress":"do_you_have_a_home_to_sell",
+      "do_you_have_a_home_to_sell":"when_are_you_looking_to_move",
+      "when_are_you_looking_to_move":"what_price_range_are_you_looking_in",
+      "what_price_range_are_you_looking_in":"which_city_are_you_looking_in",
+      "are_you_already_working_with_a_lender":"are_you_working_with_a_real_estate_agent",
+      "are_you_working_with_a_real_estate_agent":"save_your_progress"
+   },
+   "utm":{
+   }
+}

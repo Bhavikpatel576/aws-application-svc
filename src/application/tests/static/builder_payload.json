@@ -1,0 +1,20 @@
+{
+  "questionset": "approval-app",
+  "id": "5ea82edf-d2f9-4033-810a-1f6ac78984ba",
+  "response": {
+    "where_are_you_in_the_process": "working with a builder",
+    "referral_source": "home builder",
+    "builder_rep_first_name": "Aidan",
+    "builder_rep_last_name": "Garza",
+    "builder_rep_email": "aidan.garza@homeward.com",
+    "builder_rep_phone_number": "1-123-456-7890",
+    "builders_company_name": "MHI",
+    "first_name": "Brandon",
+    "last_name": "Kirchner",
+    "email": "brandon+2345675456787654567@homeward.com",
+    "phone_number": "1-098-765-4321",
+    "self_reported_referral_source": "social_media"
+  },
+  "status": "draft",
+  "state": {}
+}

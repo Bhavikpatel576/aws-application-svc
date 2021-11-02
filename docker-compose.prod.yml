@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  web:
+    build:
+        context: .
+        dockerfile: Dockerfile.production
+    working_dir: /opt/startup
+    command: ["sh", "-c", "python src/manage.py migrate && python src/manage.py runserver 0.0.0.0:8000"]
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+  celery:
+    build:
+        context: .
+        dockerfile: Dockerfile.production
+    working_dir: /opt/startup
+    command: [ "sh", "-c", "celery -A utils --workdir=src worker --loglevel=info --without-gossip --without-mingle -Q application-service-tasks" ]
+    depends_on:
+      - db
+      - web
+  db:
+    image: "postgres:11.11"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    # expose:
+    #   - "5432"
+    # ports:
+    #   - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+volumes:
+  postgres_data:

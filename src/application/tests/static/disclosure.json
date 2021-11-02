@@ -1,0 +1,172 @@
+[
+    {
+        "model": "application.disclosure",
+        "pk": "1d8886aa-c69d-4046-8d72-eeadefa1faf3",
+        "fields": {
+            "created_at": "2020-09-08T18:30:12.442Z",
+            "updated_at": "2020-09-08T18:30:12.442Z",
+            "name": "service agreement (georgia)",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "ga",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true,
+            "product_offering": "buy-sell"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "24defe88-4702-465a-9e3f-c0cd94e2f555",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.837Z",
+            "updated_at": "2020-09-08T18:30:40.120Z",
+            "name": "service agreement (texas)",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true,
+            "product_offering": "buy-sell"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "5a1e1e6b-ab26-439a-8a22-b27802d520a4",
+        "fields": {
+            "created_at": "2020-09-08T18:30:28.669Z",
+            "updated_at": "2020-09-08T18:30:28.669Z",
+            "name": "service agreement (colorado)",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "co",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true,
+            "product_offering": "buy-sell"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "5a98eba8-8c02-4de4-9c14-e6d0ca6f24cc",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.849Z",
+            "updated_at": "2020-09-08T18:30:34.778Z",
+            "name": "service agreement (texas realty austin)",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": "Realty Austin",
+            "active": true,
+            "product_offering": "buy-sell"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "de25425a-85ba-4a78-a835-f15861b40fbb",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.808Z",
+            "updated_at": "2020-09-08T18:30:52.496Z",
+            "name": "homeward title (texas)",
+            "disclosure_type": "title",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": "tx",
+            "buying_agent_brokerage": null,
+            "active": true
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "e09986f0-1c15-4501-8236-0cfc9cc2f143",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.825Z",
+            "updated_at": "2020-09-08T18:30:48.146Z",
+            "name": "homeward mortgage (colorado)",
+            "disclosure_type": "mortgage",
+            "document_url": "someurl.com",
+            "buying_state": "co",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "e09946f0-1c35-4501-8636-0cfc9cb2f143",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.825Z",
+            "updated_at": "2020-09-08T18:30:48.146Z",
+            "name": "homeward mortgage (texas)",
+            "disclosure_type": "mortgage",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.849Z",
+            "updated_at": "2020-09-08T18:30:34.778Z",
+            "name": "service agreement (texas - buy only)",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true,
+            "product_offering": "buy-only"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "pk": "442cdc28-3221-4792-af3f-446d1e1dc5f7",
+        "fields": {
+            "created_at": "2021-05-03T21:25:45.745Z",
+            "updated_at": "2021-05-03T21:25:45.745Z",
+            "name": "homeward e-consent",
+            "disclosure_type": "e_consent",
+            "document_url": "someurl.com",
+            "buying_state": null,
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": true,
+            "product_offering": null
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "fields": {
+            "created_at": "2020-09-08T18:20:53.849Z",
+            "updated_at": "2020-09-08T18:30:34.778Z",
+            "name": "service agreement (tx - buy-sell) v4",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": null,
+            "active": false,
+            "product_offering": "buy-sell"
+        }
+    },
+    {
+        "model": "application.disclosure",
+        "fields": {
+            "created_at": "2021-06-15T18:20:53.849Z",
+            "updated_at": "2020-06-15T18:30:34.778Z",
+            "name": "service agreement (tx realty austin - buy-sell) v4",
+            "disclosure_type": "service_agreement",
+            "document_url": "someurl.com",
+            "buying_state": "tx",
+            "selling_state": null,
+            "buying_agent_brokerage": "Realty Austin",
+            "active": false,
+            "product_offering": "buy-sell"
+        }
+    }
+]

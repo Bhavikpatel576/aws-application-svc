@@ -1,0 +1,11 @@
+###########
+# BUILDER #
+###########
+FROM python:3.9.7-slim-bullseye AS prod_stage_app_svc
+COPY . /opt/startup
+WORKDIR /opt/startup
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# RUN chmod +x docker_prebuilds/startup.prod.sh
+# ENTRYPOINT [ "sh", "docker_prebuilds/startup.prod.sh" ]
